@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>77 Sports</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #1d3557;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header img {
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #457b9d;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: #1d3557;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 28px;
+      color: #1d3557;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      width: 270px;
+      text-align: center;
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #1d3557;
+    }
+    .card p {
+      color: #333;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #1d3557;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #1d3557;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="77sports_logo/vecteezy_logo-indonesia-77-independence-17-august-design-illustration_9742746.jpg" alt="77 Sports Logo" />
+    <h1>Welcome to 77 Sports</h1>
+    <p>Your gateway to the world of sports</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#team">My Team</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Cricket Coaching</h3>
+        <p>Expert coaching for all age groups and skill levels.</p>
+      </div>
+      <div class="card">
+        <h3>Fitness Training</h3>
+        <p>Intensive physical fitness sessions and programs.</p>
+      </div>
+      <div class="card">
+        <h3>Match Organization</h3>
+        <p>Organizing tournaments and friendly matches.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <h2>Our Team</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Hitesh Makwana</h3>
+        <p>Contact: +91 7802802737</p>
+      </div>
+      <div class="card">
+        <h3>Vishnu Makwana</h3>
+        <p>Contact: +91 8469686713</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Match+1" alt="Match 1">
+      <img src="https://via.placeholder.com/300x200?text=Team+Practice" alt="Practice">
+      <img src="https://via.placeholder.com/300x200?text=Fitness+Camp" alt="Fitness">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 77 Sports. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
